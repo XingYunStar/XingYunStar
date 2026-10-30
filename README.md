@@ -1,6 +1,7 @@
 <!-- 星陨 · XingYunStar 个人主页 README（炫酷版 / 深色主题）
      已发布：https://github.com/XingYunStar/XingYunStar
-     想改配色：把 fde047 / f59e0b（琥珀）换成你喜欢的主色，header 的 color=0:...,50:...,100:... 同步改 -->
+     说明：流萤.love 的链接用 punycode（xn--qzw410c.love），纯 ASCII 更稳；
+           想改配色把 fde047 / f59e0b（琥珀）/ ff6b9d（粉）换掉，header 的 color=0:...,50:...,100:... 同步改 -->
 
 <div align="center">
 
@@ -10,7 +11,8 @@
 
 <br />
 
-<a href="https://likefirefly.com"><img src="https://img.shields.io/badge/Blog-likefirefly.com-f59e0b?style=for-the-badge&logo=rss&logoColor=white" alt="blog" /></a>
+<a href="https://likefirefly.com"><img src="https://img.shields.io/badge/%E6%B5%81%E8%90%A4%E7%AB%99-likefirefly.com-f59e0b?style=for-the-badge&logo=firefox&logoColor=white" alt="site" /></a>
+<a href="https://xn--qzw410c.love"><img src="https://img.shields.io/badge/%E6%B5%81%E8%90%A4.love-%E5%9C%A8%E5%BB%BA%C2%B7%E6%8B%9B%E5%8B%9F-ff6b9d?style=for-the-badge&logo=heart&logoColor=white" alt="firefly-love" /></a>
 <a href="https://github.com/XingYunStar?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FXingYunStar&query=%24.public_repos&label=REPOS&color=22c55e&style=for-the-badge&logo=github&logoColor=white" alt="repos" /></a>
 <a href="https://github.com/XingYunStar?tab=repositories&q=astrbot"><img src="https://img.shields.io/badge/AstrBot-1e40af?style=for-the-badge&logo=python&logoColor=white" alt="astrbot" /></a>
 <a href="https://github.com/XingYunStar?tab=repositories&q=napcat"><img src="https://img.shields.io/badge/NapCat-0ea5e9?style=for-the-badge&logo=javascript&logoColor=white" alt="napcat" /></a>
@@ -37,49 +39,9 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🎬 抖音订阅推送
-
-订阅抖音账号，新作品自动进群：图文发图片、视频发视频。纯 Python 签名，自带 WebUI。
-
-[`astrbot_plugin_douyin_subscribe`](https://github.com/XingYunStar/astrbot_plugin_douyin_subscribe)
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ 屏蔽官方机器人
-
-读 QQ 资料卡的 `is_robot` 标志识别官方机器人并拦下，兼容 NapCat / SnowLuma / OneBot v11。
-
-[`astrbot_plugin_block_official_bot`](https://github.com/XingYunStar/astrbot_plugin_block_official_bot)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔌 插件导入器
-
-在 NapCat WebUI 里恢复「导入插件」页面与接口，上传 zip 即可安装并启用，不绑版本。
-
-[`napcat-plugin-importer`](https://github.com/XingYunStar/napcat-plugin-importer)
-
-</td>
-<td width="50%" valign="top">
-
-### 🔇 禁言工具组
-
-自动禁言指定用户、群黑白名单过滤；非本人解禁后自动恢复剩余时长。
-
-[`mute-list`](https://github.com/XingYunStar/napcat-plugin-mute-list) · [`mute-recover`](https://github.com/XingYunStar/napcat-plugin-mute-recover)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 📊 站点流量统计
 
-Nginx 访问日志 WebUI：请求数、流量、IP、UV / PV，日周月与原始日志检索。
+Nginx 访问日志统计 WebUI：请求数、流量、IP、UV / PV，日/周/月与总览切换，支持原始日志检索，零第三方依赖。
 
 [`site-stats`](https://github.com/XingYunStar/site-stats)
 
@@ -88,15 +50,51 @@ Nginx 访问日志 WebUI：请求数、流量、IP、UV / PV，日周月与原�
 
 ### 📚 考研背单词
 
-三轮制 + 遗忘曲线 + 词性释义 + 例句高亮，Python + SQLite 零依赖。
+三轮制 + 遗忘曲线 + 词性释义 + 例句高亮，Python + SQLite，零第三方依赖。
 
 [`kaoyan-vocab`](https://github.com/XingYunStar/kaoyan-vocab)
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 官方机器人适配器
+
+TRSS-Yunzai 的 QQBot 适配器（qq-official-bot 版），兼容旧版 QQBot-Plugin。
+
+[`qq-official-bot-plugin`](https://github.com/XingYunStar/qq-official-bot-plugin)
+
+</td>
+<td width="50%" valign="top">
+
+### 🎬 抖音订阅推送
+
+订阅抖音账号，新作品自动进群：图文发图片、视频发视频。纯 Python 签名，自带 WebUI。
+
+[`astrbot_plugin_douyin_subscribe`](https://github.com/XingYunStar/astrbot_plugin_douyin_subscribe)
+
+</td>
+</tr>
 </table>
 
-<sub>还有 · [qq-official-bot-plugin](https://github.com/XingYunStar/qq-official-bot-plugin) · [自动同意加群（AstrBot）](https://github.com/XingYunStar/astrbot_plugin_group_invite_auto_approve) · [自动同意加群（NapCat）](https://github.com/XingYunStar/napcat-plugin-group-invite-auto-approve) · [字符画](https://github.com/XingYunStar/astrbot_plugin_char_draw) · [部署教程](https://github.com/XingYunStar/bot)</sub>
+<sub>还有 · [屏蔽官方机器人](https://github.com/XingYunStar/astrbot_plugin_block_official_bot) · [插件导入器](https://github.com/XingYunStar/napcat-plugin-importer) · [禁言列表](https://github.com/XingYunStar/napcat-plugin-mute-list) · [禁言恢复](https://github.com/XingYunStar/napcat-plugin-mute-recover) · [自动同意加群](https://github.com/XingYunStar/astrbot_plugin_group_invite_auto_approve) · [部署教程](https://github.com/XingYunStar/bot)</sub>
+
+---
+
+## 🤝 开源贡献
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/MERGED_PR-11-8957e5?style=for-the-badge&logo=git-pull-request&logoColor=white" alt="merged PR" />
+
+</div>
+
+| 仓库 | 我提交的改动 | 状态 |
+| --- | --- | --- |
+| [**SnowLuma**](https://github.com/SnowLuma/SnowLuma) | `fix(onebot)` 把群简介和群备注分开暴露 · [#491](https://github.com/SnowLuma/SnowLuma/pull/491) | ✅ 已合并 |
+| | `fix(protocol)` 让自邀请请求保持可处理 · [#612](https://github.com/SnowLuma/SnowLuma/pull/612) | 🔵 待审 |
+| [**napcat-plugin-community-index**](https://github.com/HolyFoxTeam/napcat-plugin-community-index) | 社区插件上架与版本更新 ×11：插件导入器、禁言列表、禁言恢复、AI 聊天、自动同意加群 | ✅ 10 已合并 |
 
 ---
 
@@ -117,6 +115,21 @@ Nginx 访问日志 WebUI：请求数、流量、IP、UV / PV，日周月与原�
 
 ---
 
+## 🦋 流萤
+
+因为喜欢流萤，顺手做了两个站：
+
+- **[likefirefly.com](https://likefirefly.com)** —— 流萤厨的导航站：角色资料、图集、动态，都在这里收着
+- **[流萤.love](https://xn--qzw410c.love)** —— 想认真做好的同人站，一个人时间和精力不够，**正在找同好一起做**，会前端 / 后端 / UI 都欢迎
+
+<div align="center">
+
+<a href="https://xn--qzw410c.love"><img src="https://img.shields.io/badge/%E5%8A%A0%E5%85%A5%E5%85%B1%E5%BB%BA%E5%9B%A2%E9%98%9F-%E6%84%BF%E4%BD%A0%E4%B9%9F%E8%83%BD%E6%89%BE%E5%88%B0%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%89-ff6b9d?style=for-the-badge&logo=heart&logoColor=white" alt="join us" /></a>
+
+</div>
+
+---
+
 ## 📈 数据
 
 <div align="center">
@@ -132,14 +145,7 @@ Nginx 访问日志 WebUI：请求数、流量、IP、UV / PV，日周月与原�
 
 ---
 
-## 🔗 找到我
-
 <div align="center">
-
-<a href="https://likefirefly.com"><img src="https://img.shields.io/badge/likefirefly.com-0a0e27?style=for-the-badge&logo=firefox&logoColor=fde047" alt="site" /></a>
-<a href="https://github.com/XingYunStar?tab=repositories"><img src="https://img.shields.io/badge/all_repos-0a0e27?style=for-the-badge&logo=git&logoColor=fde047" alt="repos" /></a>
-
-<br /><br />
 
 **插件有问题 → 直接去对应仓库开 Issue，比私信快。**
 
