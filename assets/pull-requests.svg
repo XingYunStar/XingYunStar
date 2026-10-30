@@ -39,7 +39,7 @@
 
     <g>
       <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.55s" fill="freeze"/>
-      <text x="848" y="96" font-size="11" fill="#6e7681" text-anchor="end">13 total</text>
+      <text x="848" y="96" font-size="11" fill="#6e7681" text-anchor="end">99 total</text>
       <rect x="536" y="106" width="312" height="9" rx="4.5" fill="#484f58"/>
       <rect x="536" y="106" width="264" height="9" rx="4.5" fill="#3fb950"/>
       <rect x="800" y="106" width="24" height="9" rx="4.5" fill="#f59e0b"/>
