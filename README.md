@@ -126,6 +126,16 @@ TRSS-Yunzai 的 QQBot 适配器（qq-official-bot 版），兼容旧版 QQBot-Pl
 
 ---
 
+## 🧬 语言
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/XingYunStar/XingYunStar/main/assets/languages.svg" width="860" alt="Language statistics: JavaScript 44.1%, Python 41.2%, HTML 8.5%, CSS 4.1%, Shell 2.1%, Batchfile 0.1%" />
+
+</div>
+
+---
+
 ## 📈 数据
 
 <div align="center">
