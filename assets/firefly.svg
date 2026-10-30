@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="firefly">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde047" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#facc15" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#facc15" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dbeafe" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#bfdbfe" stop-opacity="0.25"/>
+    </linearGradient>
+    <style>
+      @keyframes breathe { 0%, 100% { opacity: .55 } 50% { opacity: 1 } }
+      @keyframes flick { 0%, 100% { opacity: .8 } 45% { opacity: 1 } 70% { opacity: .65 } }
+      .halo { animation: breathe 3.2s ease-in-out infinite }
+      .tail { animation: flick 2.4s ease-in-out infinite }
+    </style>
+  </defs>
+
+  <circle class="halo" cx="32" cy="33" r="26" fill="url(#halo)"/>
+
+  <g opacity="0.95">
+    <ellipse cx="22" cy="24" rx="10" ry="5" fill="url(#wing)" transform="rotate(-32 22 24)"/>
+    <ellipse cx="42" cy="24" rx="10" ry="5" fill="url(#wing)" transform="rotate(32 42 24)"/>
+  </g>
+
+  <ellipse cx="32" cy="33" rx="5.2" ry="8.2" fill="#3f3410"/>
+  <ellipse cx="32" cy="31" rx="3.4" ry="4.6" fill="#6b5a1c"/>
+  <circle cx="32" cy="23.5" r="3.1" fill="#2a2410"/>
+
+  <circle class="tail" cx="32" cy="41.5" r="3.4" fill="#fde047"/>
+  <circle class="tail" cx="32" cy="41.5" r="1.5" fill="#fffbeb"/>
+</svg>
