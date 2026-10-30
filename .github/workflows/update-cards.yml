@@ -1,0 +1,47 @@
+name: Update cards
+
+# 每天自动重新生成语言统计 / PR 统计卡片；也可以手动触发
+# 卡片数据来自 GitHub API，生成结果提交回仓库，README 直接引用 assets/*.svg
+
+on:
+  schedule:
+    - cron: "0 3 * * *"        # UTC 03:00 = 北京时间 11:00
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/generate-cards.mjs"
+      - ".github/workflows/update-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-cards
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Regenerate cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-cards.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+          else
+            git commit -m "chore(cards): refresh language & PR stats"
+            git push
+          fi
