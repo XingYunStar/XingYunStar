@@ -86,15 +86,11 @@ TRSS-Yunzai 的 QQBot 适配器（qq-official-bot 版），兼容旧版 QQBot-Pl
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/MERGED_PR-11-8957e5?style=for-the-badge&logo=git-pull-request&logoColor=white" alt="merged PR" />
+<img src="https://raw.githubusercontent.com/XingYunStar/XingYunStar/main/assets/pull-requests.svg" width="860" alt="Pull requests: 11 merged, 1 open, 1 closed" />
 
 </div>
 
-| 仓库 | 我提交的改动 | 状态 |
-| --- | --- | --- |
-| [**SnowLuma**](https://github.com/SnowLuma/SnowLuma) | `fix(onebot)` 把群简介和群备注分开暴露 · [#491](https://github.com/SnowLuma/SnowLuma/pull/491) | ✅ 已合并 |
-| | `fix(protocol)` 让自邀请请求保持可处理 · [#612](https://github.com/SnowLuma/SnowLuma/pull/612) | 🔵 待审 |
-| [**napcat-plugin-community-index**](https://github.com/HolyFoxTeam/napcat-plugin-community-index) | 社区插件上架与版本更新 ×11：插件导入器、禁言列表、禁言恢复、AI 聊天、自动同意加群 | ✅ 10 已合并 |
+<sub>上游 · [SnowLuma #491](https://github.com/SnowLuma/SnowLuma/pull/491) 群简介与群备注拆分 · [#612](https://github.com/SnowLuma/SnowLuma/pull/612) 自邀请请求保持可处理 · [社区插件索引](https://github.com/HolyFoxTeam/napcat-plugin-community-index) 11 次上架与版本更新</sub>
 
 ---
 
@@ -115,7 +111,7 @@ TRSS-Yunzai 的 QQBot 适配器（qq-official-bot 版），兼容旧版 QQBot-Pl
 
 ---
 
-## 🦋 流萤
+## <img src="https://raw.githubusercontent.com/XingYunStar/XingYunStar/main/assets/firefly.svg" width="26" height="26" alt="firefly" /> 流萤
 
 因为喜欢流萤，顺手做了两个站：
 
