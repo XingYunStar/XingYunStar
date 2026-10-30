@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="340" viewBox="0 0 880 340" role="img" aria-label="Pull requests: 11 merged, 1 open, 1 closed">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1220"/>
+      <stop offset="100%" stop-color="#0a0e27"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fde047" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0a0e27" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="84.6%" stop-color="#3fb950"/>
+      <stop offset="84.6%" stop-color="#f59e0b"/>
+      <stop offset="92.3%" stop-color="#f59e0b"/>
+      <stop offset="92.3%" stop-color="#484f58"/>
+      <stop offset="100%" stop-color="#484f58"/>
+    </linearGradient>
+    <style>
+      .t { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      @keyframes rise { from { opacity: 0 } to { opacity: 1 } }
+      @keyframes pulse { 0%, 100% { opacity: .3 } 50% { opacity: 1 } }
+      @keyframes grow { from { opacity: 0 } to { opacity: 1 } }
+      .a1 { animation: rise .55s ease-out .05s both }
+      .a2 { animation: rise .55s ease-out .18s both }
+      .a3 { animation: rise .55s ease-out .31s both }
+      .a4 { animation: rise .55s ease-out .44s both }
+      .a5 { animation: rise .55s ease-out .57s both }
+      .a6 { animation: rise .55s ease-out .70s both }
+      .a7 { animation: rise .55s ease-out .83s both }
+      .dot { animation: pulse 2.2s ease-in-out infinite }
+      .bar { animation: grow .9s ease-out .2s both }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="879" height="339" rx="14" fill="url(#bg)" stroke="#1e293b"/>
+  <rect x="0" y="0" width="880" height="2" fill="url(#edge)"/>
+
+  <g class="t">
+    <text class="a1" x="32" y="44" font-size="12.5" letter-spacing="3.2" fill="#7d8590" font-weight="600">PULL REQUESTS</text>
+    <circle class="dot" cx="754" cy="40" r="4" fill="#f59e0b"/>
+    <text class="a1" x="812" y="44" font-size="12" letter-spacing="1.6" fill="#f59e0b" text-anchor="end" font-weight="600">1 OPEN</text>
+
+    <text class="a2" x="32" y="112" font-size="36" font-weight="700" fill="#3fb950">11</text>
+    <text class="a2" x="32" y="134" font-size="10.5" letter-spacing="2.2" fill="#7d8590" font-weight="600">MERGED</text>
+
+    <text class="a3" x="152" y="112" font-size="36" font-weight="700" fill="#f59e0b">1</text>
+    <text class="a3" x="152" y="134" font-size="10.5" letter-spacing="2.2" fill="#7d8590" font-weight="600">OPEN</text>
+
+    <text class="a4" x="248" y="112" font-size="36" font-weight="700" fill="#6e7681">1</text>
+    <text class="a4" x="248" y="134" font-size="10.5" letter-spacing="2.2" fill="#7d8590" font-weight="600">CLOSED</text>
+
+    <text class="a4" x="848" y="96" font-size="11" fill="#6e7681" text-anchor="end">13 total</text>
+    <rect class="bar" x="536" y="106" width="312" height="9" rx="4.5" fill="url(#bar)"/>
+    <text class="a4" x="848" y="134" font-size="11" fill="#6e7681" text-anchor="end">upstream · SnowLuma · HolyFoxTeam</text>
+
+    <line class="a4" x1="32" y1="160" x2="848" y2="160" stroke="#1e293b" stroke-width="1"/>
+
+    <text class="a5" x="32" y="190" font-size="14" font-weight="600" fill="#e6edf3">SnowLuma/SnowLuma</text>
+    <text class="a5" x="848" y="190" font-size="11.5" fill="#6e7681" text-anchor="end">1 merged · 1 open</text>
+
+    <text class="a6" x="32" y="216" font-size="13" fill="#3fb950">✓</text>
+    <text class="a6" x="52" y="216" font-size="12.5" fill="#c9d1d9">fix(onebot): expose group description separately from group memo</text>
+    <text class="a6" x="848" y="216" font-size="11.5" fill="#6e7681" text-anchor="end">#491</text>
+
+    <text class="a6" x="32" y="240" font-size="13" fill="#f59e0b">◇</text>
+    <text class="a6" x="52" y="240" font-size="12.5" fill="#9aa4b2">fix(protocol): keep self-invite requests actionable</text>
+    <text class="a6" x="848" y="240" font-size="11.5" fill="#6e7681" text-anchor="end">#612</text>
+
+    <text class="a7" x="32" y="284" font-size="14" font-weight="600" fill="#e6edf3">HolyFoxTeam/napcat-plugin-community-index</text>
+    <text class="a7" x="848" y="284" font-size="11.5" fill="#6e7681" text-anchor="end">10 merged · 1 closed</text>
+
+    <text class="a7" x="32" y="310" font-size="13" fill="#3fb950">✓</text>
+    <text class="a7" x="52" y="310" font-size="12.5" fill="#c9d1d9">plugin registry entries: importer · mute-list · mute-recover · ai-chat · invite</text>
+  </g>
+</svg>
