@@ -39,20 +39,20 @@
 <tr>
 <td width="50%" valign="top">
 
+### ✨ 流萤.love 同人站
+
+非官方流萤主题同好站：角色资料、图集、动态都收在里面。一个人做不完，欢迎提 PR 一起把它补完。
+
+[`FireflyLoveSite`](https://github.com/FireflyDevs/FireflyLoveSite)
+
+</td>
+<td width="50%" valign="top">
+
 ### 📊 站点流量统计
 
 Nginx 访问日志统计 WebUI：请求数、流量、IP、UV / PV，日/周/月与总览切换，支持原始日志检索，零第三方依赖。
 
 [`site-stats`](https://github.com/XingYunStar/site-stats)
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 考研背单词
-
-三轮制 + 遗忘曲线 + 词性释义 + 例句高亮，Python + SQLite，零第三方依赖。
-
-[`kaoyan-vocab`](https://github.com/XingYunStar/kaoyan-vocab)
 
 </td>
 </tr>
@@ -78,7 +78,7 @@ TRSS-Yunzai 的 QQBot 适配器（qq-official-bot 版），兼容旧版 QQBot-Pl
 </tr>
 </table>
 
-<sub>还有 · [屏蔽官方机器人](https://github.com/XingYunStar/astrbot_plugin_block_official_bot) · [插件导入器](https://github.com/XingYunStar/napcat-plugin-importer) · [禁言列表](https://github.com/XingYunStar/napcat-plugin-mute-list) · [禁言恢复](https://github.com/XingYunStar/napcat-plugin-mute-recover) · [自动同意加群](https://github.com/XingYunStar/astrbot_plugin_group_invite_auto_approve) · [部署教程](https://github.com/XingYunStar/bot)</sub>
+<sub>还有 · [考研背单词](https://github.com/XingYunStar/kaoyan-vocab) · [屏蔽官方机器人](https://github.com/XingYunStar/astrbot_plugin_block_official_bot) · [插件导入器](https://github.com/XingYunStar/napcat-plugin-importer) · [禁言列表](https://github.com/XingYunStar/napcat-plugin-mute-list) · [禁言恢复](https://github.com/XingYunStar/napcat-plugin-mute-recover) · [自动同意加群](https://github.com/XingYunStar/astrbot_plugin_group_invite_auto_approve) · [部署教程](https://github.com/XingYunStar/bot)</sub>
 
 ---
 
