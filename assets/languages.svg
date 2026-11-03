@@ -23,9 +23,9 @@
 
     <rect x="32" y="70" width="816" height="14" rx="7" fill="#161b22"/>
     <g clip-path="url(#barclip)">
-      <rect x="32" y="70" width="343.9" height="14" fill="#4b8bbe"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.55s" fill="freeze"/></rect>
-      <rect x="375.9" y="70" width="326.9" height="14" fill="#f1e05a"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.55s" fill="freeze"/></rect>
-      <rect x="702.9" y="70" width="101.5" height="14" fill="#e34c26"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.55s" fill="freeze"/></rect>
+      <rect x="32" y="70" width="343.6" height="14" fill="#4b8bbe"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.55s" fill="freeze"/></rect>
+      <rect x="375.6" y="70" width="327.3" height="14" fill="#f1e05a"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.55s" fill="freeze"/></rect>
+      <rect x="703" y="70" width="101.5" height="14" fill="#e34c26"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.55s" fill="freeze"/></rect>
       <rect x="804.4" y="70" width="29.3" height="14" fill="#8b5cf6"><animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.55s" fill="freeze"/></rect>
       <rect x="833.7" y="70" width="13.5" height="14" fill="#89e051"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.55s" fill="freeze"/></rect>
       <rect x="847.2" y="70" width="0.8" height="14" fill="#c1f12e"><animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.55s" fill="freeze"/></rect>
@@ -38,21 +38,21 @@
       <circle cx="38" cy="137" r="6" fill="#4b8bbe"/>
       <text x="54" y="142" font-size="13.5" fill="#e6edf3" font-weight="600">Python</text>
       <text x="404" y="142" font-size="13" fill="#4b8bbe" text-anchor="end" font-weight="600">42.1%</text>
-      <rect x="54" y="152" width="147.5" height="5" rx="2.5" fill="#4b8bbe" opacity="0.88"><animate attributeName="width" from="0" to="147.5" begin="0.4s" dur="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.25 1"/></rect>
+      <rect x="54" y="152" width="147.4" height="5" rx="2.5" fill="#4b8bbe" opacity="0.88"><animate attributeName="width" from="0" to="147.4" begin="0.4s" dur="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.25 1"/></rect>
     </g>
     <g>
       <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.55s" fill="freeze"/>
       <circle cx="462" cy="137" r="6" fill="#f1e05a"/>
       <text x="478" y="142" font-size="13.5" fill="#e6edf3" font-weight="600">JavaScript</text>
       <text x="828" y="142" font-size="13" fill="#f1e05a" text-anchor="end" font-weight="600">40.1%</text>
-      <rect x="478" y="152" width="140.2" height="5" rx="2.5" fill="#f1e05a" opacity="0.88"><animate attributeName="width" from="0" to="140.2" begin="0.4s" dur="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.25 1"/></rect>
+      <rect x="478" y="152" width="140.4" height="5" rx="2.5" fill="#f1e05a" opacity="0.88"><animate attributeName="width" from="0" to="140.4" begin="0.4s" dur="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.25 1"/></rect>
     </g>
     <g>
       <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.55s" fill="freeze"/>
       <circle cx="38" cy="195" r="6" fill="#e34c26"/>
       <text x="54" y="200" font-size="13.5" fill="#e6edf3" font-weight="600">HTML</text>
       <text x="404" y="200" font-size="13" fill="#e34c26" text-anchor="end" font-weight="600">12.4%</text>
-      <rect x="54" y="210" width="43.6" height="5" rx="2.5" fill="#e34c26" opacity="0.88"><animate attributeName="width" from="0" to="43.6" begin="0.5s" dur="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.25 1"/></rect>
+      <rect x="54" y="210" width="43.5" height="5" rx="2.5" fill="#e34c26" opacity="0.88"><animate attributeName="width" from="0" to="43.5" begin="0.5s" dur="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.25 1"/></rect>
     </g>
     <g>
       <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.55s" fill="freeze"/>
