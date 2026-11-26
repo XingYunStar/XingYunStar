@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="338" viewBox="0 0 880 338" role="img" aria-label="Pull requests: 15 merged, 2 open, 1 closed">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="338" viewBox="0 0 880 338" role="img" aria-label="Pull requests: 15 merged, 2 open, 2 closed">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0d1220"/>
@@ -33,16 +33,16 @@
     </g>
     <g>
       <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.55s" fill="freeze"/>
-      <text x="248" y="112" font-size="36" font-weight="700" fill="#6e7681">1</text>
+      <text x="248" y="112" font-size="36" font-weight="700" fill="#6e7681">2</text>
       <text x="248" y="134" font-size="10.5" letter-spacing="2.2" fill="#7d8590" font-weight="600">CLOSED</text>
     </g>
 
     <g>
       <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.55s" fill="freeze"/>
-      <text x="848" y="96" font-size="11" fill="#6e7681" text-anchor="end">18 total</text>
+      <text x="848" y="96" font-size="11" fill="#6e7681" text-anchor="end">19 total</text>
       <rect x="536" y="106" width="312" height="9" rx="4.5" fill="#484f58"/>
-      <rect x="536" y="106" width="260" height="9" rx="4.5" fill="#3fb950"/>
-      <rect x="796" y="106" width="34.7" height="9" rx="4.5" fill="#f59e0b"/>
+      <rect x="536" y="106" width="246.3" height="9" rx="4.5" fill="#3fb950"/>
+      <rect x="782.3" y="106" width="32.8" height="9" rx="4.5" fill="#f59e0b"/>
       <text x="848" y="134" font-size="11" fill="#6e7681" text-anchor="end">HolyFoxTeam · FireflyDevs</text>
     </g>
 

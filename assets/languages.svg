@@ -23,8 +23,8 @@
 
     <rect x="32" y="70" width="816" height="14" rx="7" fill="#161b22"/>
     <g clip-path="url(#barclip)">
-      <rect x="32" y="70" width="698" height="14" fill="#3178c6"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.55s" fill="freeze"/></rect>
-      <rect x="730" y="70" width="57" height="14" fill="#f1e05a"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.55s" fill="freeze"/></rect>
+      <rect x="32" y="70" width="697.9" height="14" fill="#3178c6"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.55s" fill="freeze"/></rect>
+      <rect x="729.9" y="70" width="57" height="14" fill="#f1e05a"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.55s" fill="freeze"/></rect>
       <rect x="787" y="70" width="36.9" height="14" fill="#4b8bbe"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.55s" fill="freeze"/></rect>
       <rect x="823.9" y="70" width="12.9" height="14" fill="#e34c26"><animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.55s" fill="freeze"/></rect>
       <rect x="836.8" y="70" width="9.3" height="14" fill="#8b5cf6"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.55s" fill="freeze"/></rect>
