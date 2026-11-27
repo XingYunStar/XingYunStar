@@ -24,10 +24,10 @@
     <rect x="32" y="70" width="816" height="14" rx="7" fill="#161b22"/>
     <g clip-path="url(#barclip)">
       <rect x="32" y="70" width="697.9" height="14" fill="#3178c6"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.55s" fill="freeze"/></rect>
-      <rect x="729.9" y="70" width="57" height="14" fill="#f1e05a"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.55s" fill="freeze"/></rect>
+      <rect x="729.9" y="70" width="57.1" height="14" fill="#f1e05a"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.55s" fill="freeze"/></rect>
       <rect x="787" y="70" width="36.9" height="14" fill="#4b8bbe"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.55s" fill="freeze"/></rect>
       <rect x="823.9" y="70" width="12.9" height="14" fill="#e34c26"><animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.55s" fill="freeze"/></rect>
-      <rect x="836.8" y="70" width="9.3" height="14" fill="#8b5cf6"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.55s" fill="freeze"/></rect>
+      <rect x="836.9" y="70" width="9.3" height="14" fill="#8b5cf6"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.55s" fill="freeze"/></rect>
       <rect x="846.1" y="70" width="1.9" height="14" fill="hsl(355 65% 62%)"><animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.55s" fill="freeze"/></rect>
     </g>
 
@@ -38,7 +38,7 @@
       <circle cx="38" cy="137" r="6" fill="#3178c6"/>
       <text x="54" y="142" font-size="13.5" fill="#e6edf3" font-weight="600">TypeScript</text>
       <text x="404" y="142" font-size="13" fill="#3178c6" text-anchor="end" font-weight="600">85.5%</text>
-      <rect x="54" y="152" width="299.4" height="5" rx="2.5" fill="#3178c6" opacity="0.88"><animate attributeName="width" from="0" to="299.4" begin="0.4s" dur="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.25 1"/></rect>
+      <rect x="54" y="152" width="299.3" height="5" rx="2.5" fill="#3178c6" opacity="0.88"><animate attributeName="width" from="0" to="299.3" begin="0.4s" dur="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.25 1"/></rect>
     </g>
     <g>
       <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.55s" fill="freeze"/>
